@@ -1,0 +1,202 @@
+
+        *{
+            margin:0%;
+            padding:0%;
+        }
+        body{
+            background-image: url('bgimage/bg.jpg');
+            background-size: 100%;
+        }
+        h1{
+            color:rgb(252, 216, 14);
+            display: block;
+            /* margin-bottom: 20px; */
+            font-size: 50px;
+        
+        }
+        
+        .nav-bar{
+    
+             width: 100%;
+            height: 40px;
+            background-color: black;
+            
+        }
+        .nav-bar ul{
+           float: left;
+           display: block;
+        }
+        .nav-bar ul li{
+            display: inline-block white;
+            padding: 25px;
+            margin-top: -10px;
+            font-size: 15px;
+            align-content: center;
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #f3b3b3;
+            padding: 5px 2px;
+            border: 1px solid transparent;
+            transition:0.6 ease;
+            margin-right: 5px;
+        }
+
+        .search{
+            display: block;
+            float: right;
+            margin-top:-70px;
+        }
+        .search input[type="text"],
+        .search button {
+            
+            height: 20px;
+            width: 250px;
+        }
+        .box{
+            width:auto;
+            height: 50px;
+            /* border: 2px solid ; */
+            display: flex;
+            /* font-size: 60px; */
+            font-weight: bold;
+            color: aliceblue;
+            font-style: italic;
+            margin:50px;
+        }
+        
+        .container{
+            width:100%;
+            height:300px;
+            /* border: 2px solid red; */
+            display: flex;
+        }
+        .movie{
+            width: 200px;
+            margin: 10px;
+            padding: 3px;
+            background-color: white;
+            
+            /* border: 2px solid green; */
+        }
+        #movie1
+        {
+            background-image:url('image/12th fail.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #movie2
+        {
+            background-image:url('image/captain america.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #movie3
+        {
+            background-image:url('image/dunki.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #movie4
+        {
+            background-image:url('image/inception.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #movie5
+        {
+            background-image:url('image/Dealth note.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #movie6
+        {
+            background-image:url('image/the boss baby.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        .container1{
+            width:100%;
+            height:300px;
+            /* border: 2px solid red; */
+            display: flex;
+            margin-top: 20px;
+        }
+        .picture{
+            width: 200px;
+            margin: 10px;
+            padding: 3px;
+            background-color: white;
+            /* border: 2px solid green; */
+        }
+        #pic1
+        {
+            background-image:url('image/animal.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #pic2
+        {
+            background-image:url('image/snake eyes.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #pic3
+        {
+            background-image:url('image/the\ forever\ purge.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #pic4
+        {
+            background-image:url('image/Black widow.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #pic5
+        {
+            background-image:url('image/escape\ room.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+        #pic6
+        {
+            background-image:url('image/pogo.jpg');
+            width: 200px;
+            height: 272px; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container2{
+            height: 100px;
+            justify-content: center;
+            color:white;
+            margin: 50px;
+            font-size: large;
+        }
